@@ -1,0 +1,84 @@
+body{
+    background-color: beige;
+    font-family: monospace;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-align: center;
+    margin-right: 5px;
+}
+
+.vierkant{
+    height:  50px;
+    width: 100%;
+    background-color: burlywood;
+    border-radius: 10px;
+    border-color: black;
+    border-width: thick;
+    border: 3px solid;
+}
+
+.vierkant2{
+    height: 760px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: thick;
+    border-color: burlywood;
+    background-color: burlywood;
+    border: 3px solid;
+}
+
+.vierkant3{
+    height: 50px;
+    width: 100%;
+    background-color: burlywood;
+    border-radius: 10px;
+    border-width: thick;
+    border-color: burlywood;
+    background-color: burlywood;
+    border: 3px solid;
+}
+
+.bg{
+    background-image: url("/images/68463_fullimage_bonnefantenmuseum_maastricht.jpg");
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border-width: thick;
+    border-color: burlywood;
+    background-color: burlywood;
+    border: 3px solid;
+}
+
+.border{
+    height: 50px;
+    width: 230px;
+    margin: auto;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 10px;
+    border-color: black;
+    border-width: thick;
+    border: 3px solid;
+}
+
+.button{
+    height: 50px;
+    width: 75px;
+    border-radius: 10px;
+    border-width: thick;
+    border-color: burlywood;
+    background-color:burlywood;
+    border: 3px solid;
+}
+
