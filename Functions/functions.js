@@ -37,7 +37,12 @@ function aftrekkene(getal1, getal2){
 }
 
 function delene(getal1, getal2){
-    let antwoord = getal1 / getal2;
-    console.log("delen " + antwoord);
-    delene.innerHTML = antwoord;
+    if (getal2 == 0){
+        console.log("Je kan niet delen door 0")
+    }
+    else{
+        let antwoord = getal1 / getal2;
+        console.log("delen " + antwoord);
+        delene.innerHTML = antwoord;
+    }
 }
