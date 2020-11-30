@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 23px;
+    
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    min-height: 1220px;
+    background-image:url(/images/LetItBe_0.jpg);
+    color: white;
+    padding-top: 154px;
+}
+
+.beatle{
+    /*background-color: rgba(255, 0 , 0, 0.8);*/
+    width: 200px;
+    cursor: pointer;
+}
+
+.beatle .naam{
+    opacity: 0;
+}
+
+.beatle:hover .naam{
+    opacity: 1;
+}
+
+#john{
+    margin-left:117px;
+    padding-top: 411px;
+    padding-left:273px;
+}
+
+#john .naam{
+   padding-left: 90px;
+}
+
+#paul{
+    margin-left: 605px;
+    margin-top: -469px;
+    padding-top: 411px;
+    padding-left: 273px;
+}
+
+#paul .naam{
+    padding-left: 70px;
+}
+
+#ringo{
+    margin-left: 117px;
+    margin-top: 411px;
+    padding-left: 273px;
+}
+
+#ringo .naam{
+    padding-left: 90px;
+}
+
+#george{
+    margin-left: 603px;
+    margin-top: -60px;
+    padding-left:273px;
+    color: red;
+}
+
+#george .naam{
+    padding-left: 70px;
+}
+
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.naam{
+    border-left: solid 7px red;
+    padding-left: 9px;
+}
