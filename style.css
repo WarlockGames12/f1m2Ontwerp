@@ -11,7 +11,7 @@ body{
     width: 1220px;
     margin: 0 auto;
     min-height: 1220px;
-    background-image:url(../images/LetItBe_0.jpg);
+    background-image:url(/images/LetItBe_0.jpg);
     color: white;
     padding-top: 154px;
 }
