@@ -1,0 +1,53 @@
+html, body{
+	margin: 0;
+}
+
+
+
+body{
+	background-color: #e3f8a4;
+	color: olive;
+}
+
+nav{
+	background-color: rgb(14, 73, 14);
+	height: 39px;
+}
+
+nav a{
+	display: block;
+	color: #ccc;
+	text-decoration: none;
+	width: 200px;
+	padding: 10px 20px;
+	float:left;
+	text-align: center;
+}
+
+nav a:hover{
+	background-color: rgb(3, 49, 3);
+}
+
+
+img{
+	max-width: 100%; 
+}
+
+h1{
+	clear: both;
+	margin: 0;
+	padding: 30px;
+	background-color: red;
+	color: white;
+	font-family: sans-serif;
+}
+
+section{
+	/*background-color: white;*/
+}
+
+footer{
+	background-color: #333;
+	color: #ccc;
+	padding: 10px 30px;
+}

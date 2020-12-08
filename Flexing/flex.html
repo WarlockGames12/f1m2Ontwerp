@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexing</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<style>
+		body{
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
+		main{
+			flex: 3 0 auto;
+			display: flex;
+			padding: 0 1%;
+		}
+		section{
+			flex: 1 0 13%;
+			padding: 20px;
+			box-sizing: border-box;
+			margin: 0 1%;
+		}
+		h1, footer{
+			flex:1 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+	   <a href="index.html">Block</a>
+	   <a href="inline.html">inline</a>
+	   <a href="inline-block.html">Inline-block</a>
+	   <a href="flex.html">Flexbox</a>
+	</nav>
+    <h1>Cobra Museum - Flex</h1>
+	<main>
+	    <section><p>Cobra staat voor Copenhagen - Brussel - Amsterdam. Na de tweede wereldoorlog verbond een groep en expressieve kunsternaars zich tot deze groep. In het museum zijn enkele toonaangevende kunstenaars zoals Carel Appel en Corneille werken in de permenente collectie. Daarnaast zijn er wisselende exposities
+	       </p>
+	    </section>
+		<section>
+		    <ul>
+	            <li>Museum voor Moderne kunst.</li>
+	           <li>In de Kerstvakantie workshop Experimenteel schilderen.</li>
+	           <li>Elke maandag in de corona-tijd opstelling voor kwetsbare mensen</li>
+	           <li>Veel wisselende exposities</li>
+	        </ul>
+		</section>
+		<section>
+		   <a href="https://www.cobra-museum.nl" target="_blank"><img src="https://www.cobra-museum.nl/wp-content/uploads/2020/12/IQMFFCobra_SM2_Campagne1-2-500x500.jpg" alt="COBRA + IQMF"></a>
+		</section>
+		<section>
+		   <a href="https://www.cobra-museum.nl/">Naar het cobra</a>
+	       <p>
+	         Sandbergplein 1 
+		     <br/>
+		     1181ZX Amstelveen
+		     <br/>
+		     The Netherlands
+		     <br/>
+		     +31 (0)20 5475050
+	       </p>
+		</section>
+	</main>
+	<footer>
+	    <p>
+		    Oefening F1M2 ONT <br/>
+			Dirk ten Have
+		</p>
+	</footer>
+	
+</body>
+</html>
